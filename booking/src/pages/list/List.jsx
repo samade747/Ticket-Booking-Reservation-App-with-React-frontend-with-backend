@@ -5,3 +5,5 @@ const List = () => {
         <div>Home</div>
     )
 }
+
+export default List
