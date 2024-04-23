@@ -5,7 +5,7 @@ const Header = () => {
      <div className="header">
         <div className="headerList">    
          <div className="headerListitem">
-             
+         <FontAwesomeIcon icon="fa-solid fa-bed" />  
          </div>
         </div>                      
      </div>
