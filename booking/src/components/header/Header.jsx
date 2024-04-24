@@ -1,8 +1,13 @@
-import "./navbar.css"
+import React from "react"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import {faBed,faPlane,faCar,faTaxi} from "@fortawesome/free-solid-svg-icons"
+import "./header.css"
 
 const Header = () => {
     return (
      <div className="header">
+        <div className="headerContainer">
+
         <div className="headerList">    
          <div className="headerListitem">
          <FontAwesomeIcon icon={faBed} />  
@@ -39,8 +44,9 @@ const Header = () => {
 
 
 
-
+         </div>
         </div>                      
+     </div>
      </div>
     )
 
