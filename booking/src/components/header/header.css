@@ -18,8 +18,6 @@
     display: flex;
     gap: 40px;
     margin-bottom: 50px;
-
-
 }
 
 .headerListItem{
@@ -28,3 +26,29 @@
     gap: 10px;
 
 }
+
+.headerListItem.active{
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.headerDesc{
+    margin: 20px 0px;
+}
+
+
+.headerBtn{
+    background-color: #0071c2;
+    color: white;
+    font-weight: 500;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+
+
+
+
+
