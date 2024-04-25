@@ -36,11 +36,21 @@ const Header = () => {
         <h1 className="headerTitle">A lifetime of discounts? its a genius</h1>
         <p className="headerDesc">Get rewarded for your travels - unlock instant savings of 10% or more with a free account</p>
         <button className="headerBtn">Sign In / Register</button>
-         </div>
+        </div>
+        <div className="headerSearchItem">
+            <FontAwesomeIcon icon={faCalenderDays} className="headerIcon" />
+            <span className="headerSearchText">date to date </span>
 
+        </div>
+         
 
+        <div className="headerSearchItem">
+            <FontAwesomeIcon icon={faPerson} className="headerIcon" />
+            <input type="text"
+             placeholder="Where are you going?"
+             className="headerSearchInput" />
 
-
+        </div>
 
 
 
@@ -56,4 +66,4 @@ const Header = () => {
 
 }
 
-export default Header
+export default Header;
