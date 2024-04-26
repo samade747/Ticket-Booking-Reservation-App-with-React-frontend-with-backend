@@ -33,22 +33,43 @@ const Header = () => {
          <FontAwesomeIcon icon={faTaxi} />  
          <span>Airport Hotel</span>
          </div>
+
+
         <h1 className="headerTitle">A lifetime of discounts? its a genius</h1>
-        <p className="headerDesc">Get rewarded for your travels - unlock instant savings of 10% or more with a free account</p>
+        <p className="headerDesc">Get rewarded for your travels - unlock instant savings of 10% or more with a free account
+        </p>
         <button className="headerBtn">Sign In / Register</button>
-        </div>
+        <div className="headerSearch">
         <div className="headerSearchItem">
-            <FontAwesomeIcon icon={faCalenderDays} className="headerIcon" />
-            <span className="headerSearchText">date to date </span>
-
-        </div>
-         
-
-        <div className="headerSearchItem">
-            <FontAwesomeIcon icon={faPerson} className="headerIcon" />
+            <FontAwesomeIcon icon={faBed} className="headerIcon" />
             <input type="text"
              placeholder="Where are you going?"
-             className="headerSearchInput" />
+             className="headerSearchInput" 
+            />
+
+        </div>
+
+        <div className="headerSearchItem">
+            <FontAwesomeIcon icon={faBed} className="headerIcon" />
+            <input type="text"
+             placeholder="Where are you going?"
+             className="headerSearchInput" 
+            />
+
+        </div>
+
+
+
+
+
+
+
+
+
+         
+
+        
+        </div>
 
         </div>
 
