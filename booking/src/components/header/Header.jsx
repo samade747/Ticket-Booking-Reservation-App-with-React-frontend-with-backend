@@ -41,7 +41,7 @@ const Header = () => {
         <button className="headerBtn">Sign In / Register</button>
         <div className="headerSearch">
         <div className="headerSearchItem">
-            <FontAwesomeIcon icon={faCalendarDays} className="headerIcon" />
+            <FontAwesomeIcon icon={faPerson} className="headerIcon" />
             <span className="headerSearchText" >date to date</span>            
         </div>
         <div className="headerSearchItem">
@@ -50,7 +50,8 @@ const Header = () => {
         </div>
         <div className="headerSearchItem">
             <button className="headerBtn">Search</button>
-        </div>     
+        </div>    
+        //2117 
 
 
 
